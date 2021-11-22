@@ -77,7 +77,7 @@ http POST http://localhost:8000/api/v2/videos/1/ \
 title="Dica #49 - DRF: Autenticação via JWT com djoser"
 ```
 
-### Delete um vídeo
+### Deleta um vídeo
 
 ```
 http DELETE http://localhost:8000/api/v2/videos/1/
