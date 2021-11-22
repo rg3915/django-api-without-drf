@@ -40,7 +40,49 @@ python manage.py createsuperuser --username="admin" --email=""
 
 ## Examples with httpie
 
-TODO
+```
+pip install httpie
+```
+
+### Adiciona vídeo
+
+```
+http POST http://localhost:8000/api/v2/videos/ \
+title="Dica #49 - DRF: Autenticação via JWT com djoser - Django REST framework" \
+link="https://youtu.be/dOomllYxj9E" \
+view=198
+
+http POST http://localhost:8000/api/v2/videos/ \
+title="Dica #50 - DRF: Django CORS headers + Login com VueJS" \
+link="https://youtu.be/2SyQ9xXdMvw" \
+view=171
+```
+
+### Lista vídeos
+
+```
+http http://localhost:8000/api/v2/videos/
+```
+
+### Visualiza um vídeo
+
+```
+http http://localhost:8000/api/v2/videos/1/
+```
+
+### Edita um vídeo
+
+```
+http POST http://localhost:8000/api/v2/videos/1/ \
+title="Dica #49 - DRF: Autenticação via JWT com djoser"
+```
+
+### Delete um vídeo
+
+```
+http DELETE http://localhost:8000/api/v2/videos/1/
+```
+
 
 ## TDD
 
