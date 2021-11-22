@@ -86,4 +86,4 @@ http DELETE http://localhost:8000/api/v2/videos/1/
 
 ## TDD
 
-TODO
+https://github.com/rg3915/django-api-without-drf/blob/main/backend/core/tests.py
