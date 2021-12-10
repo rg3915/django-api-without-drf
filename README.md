@@ -5,7 +5,7 @@ This is a API project made with Django, and without Django REST framework.
 ## This project was done with:
 
 * [Python 3.9.8](https://www.python.org/)
-* [Django 3.2.9](https://www.djangoproject.com/)
+* [Django 3.2.10](https://www.djangoproject.com/)
 
 ## How to run project?
 
